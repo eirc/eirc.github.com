@@ -80,6 +80,10 @@ pre > code {
   -o-box-shadow: none;
 }
 
+pre > code.prompt:before {
+	content: "$ ";
+}
+
 /* line 74, ../_sass/_base.scss */
 hr {
   border: none;
